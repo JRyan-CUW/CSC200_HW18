@@ -2,14 +2,14 @@ public class Driver
 {
 	public static void main(String[] args)
 	{
-		String s = "hello world";
+		String s = "{'h','e','l','l','o'}";
 		char[] answer = Driver.stringToCharAr(s);
 		System.out.println(answer);
 	}
 	
 	static char[] stringToCharAr(String s) 
 	{
-		char[] nameChar = new char[s.length()];
+	    char[] nameChar = new char[s.length()];
 	    for(int i = 0; i < s.length() ; i++)
 	    {
 	        nameChar[i] = s.charAt(i);
