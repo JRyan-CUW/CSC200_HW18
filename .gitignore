@@ -2,7 +2,7 @@ public class Driver
 {
 	public static void main(String[] args)
 	{
-		String s = "{'h','e','l','l','o'}";
+		String s = "hello";
 		char[] answer = Driver.stringToCharAr(s);
 		System.out.println(answer);
 	}
