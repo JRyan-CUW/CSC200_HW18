@@ -1,0 +1,19 @@
+public class Driver 
+{
+	public static void main(String[] args)
+	{
+		String s = "hello world";
+		char[] answer = Driver.stringToCharAr(s);
+		System.out.println(answer);
+	}
+	
+	static char[] stringToCharAr(String s) 
+	{
+		char[] nameChar = new char[s.length()];
+	    for(int i = 0; i < s.length() ; i++)
+	    {
+	        nameChar[i] = s.charAt(i);
+	    }
+	    return nameChar;
+	}
+}
